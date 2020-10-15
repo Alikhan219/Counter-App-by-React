@@ -20,7 +20,7 @@
         border: 0.4px solid white;
         border-radius: 3px;
         width: 25%;
-        height: 50vh;
+        height: 60vh;
         background-color: rgb(34, 12, 236);
         box-shadow: 3px 6px 15px -3px black;
     }
@@ -45,4 +45,10 @@
         outline: 0;
         border: 1px solid wheat;
         border-radius: 4px;
+    }
+    
+    @media screen and (max-width:768px) {
+        .center_div {
+            width: 55%;
+        }
     }
