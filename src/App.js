@@ -9,13 +9,16 @@ const App = () => {
     const inc=()=>{
         setnum(num + 1)
     }
+    const dec=()=>{
+        setnum(num - 1)
+    }
     return (
         <div className="main_div">
             <div className="center_div">
                 <h1> {num} </h1>
                 <div className="btn-div">
                     <button onClick={inc}> Increm </button>
-                    <button > Decrem </button> </div> </div> </div>
+                    <button onClick={dec}> Decrem </button> </div> </div> </div>
     )
 
 }
