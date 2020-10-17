@@ -10,8 +10,12 @@ const App = () => {
         setnum(num + 1)
     }
     const dec=()=>{
+    if(num > 0) {
         setnum(num - 1)
-    }
+    }else{
+       setnum(0)
+       alert("Reached to the limit")
+    }}
     return (
         <div className="main_div">
             <div className="center_div">
